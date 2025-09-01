@@ -24,7 +24,6 @@ Olá Gustavo, abaixo irei compartilhar cada etapa implementada para o funcioname
 > using System.Collections.Generic;
 > using System.Linq;
 > using Microsoft.AspNetCore.Http;
-> 
 > namespace OrçamentoObra.Swagger
 > {
 >     public class FileUploadOperationFilter : IOperationFilter
@@ -85,7 +84,6 @@ Olá Gustavo, abaixo irei compartilhar cada etapa implementada para o funcioname
 > using Microsoft.AspNetCore.Mvc;
 > using OrçamentoObra.Dto.Item;
 > using OrçamentoObra.Services.Interface;
-> 
 > namespace OrçamentoObra.Controllers
 > {
 >     [Route("api/[controller]")]
