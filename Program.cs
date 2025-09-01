@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi.Models;
 using OrçamentoObra.Data;
 using OrçamentoObra.Profiles;
 using OrçamentoObra.Services;
@@ -30,20 +31,28 @@ builder.Services.AddScoped<IArquivoInterface, ArquivoService>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
-    c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
+    c.SwaggerDoc("v1", new OpenApiInfo
     {
         Title = "Minha API",
         Version = "v1",
-        Description = "API de exemplo usando Swagger"
+        Description = "API de exemplo usando Swagger",
+        Contact = new OpenApiContact
+        {
+            Name = "Gustavo",
+            Email = "gustavojesus79@gmail.com"
+        }
     });
 
-    // Adiciona o filtro para tratar arquivos em multipart/form-data
-    c.OperationFilter<FileUploadOperationFilter>();
-
-    // Linkar XML comments (caso esteja usando)
-    var xmlFile = "MinhaAPI.xml";
+    // Linkar XML comments
+    var xmlFile = $"{System.Reflection.Assembly.GetExecutingAssembly().GetName().Name}.xml";
     var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
-    c.IncludeXmlComments(xmlPath);
+    if (File.Exists(xmlPath))
+    {
+        c.IncludeXmlComments(xmlPath);
+    }
+
+    // Registrar filtro para upload de arquivos
+    c.OperationFilter<FileUploadOperationFilter>();
 });
 
 var app = builder.Build();
