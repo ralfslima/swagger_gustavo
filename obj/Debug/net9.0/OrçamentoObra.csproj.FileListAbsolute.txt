@@ -335,3 +335,4 @@ C:/Users/gusta/OneDrive/Área de Trabalho/SistemaOrçamentoObra/backend/Orçamen
 /Users/ralf/Downloads/SistemaOrcamentoObra-main/backend/OrçamentoObra/OrçamentoObra/obj/Debug/net9.0/Or_ament.8000C5FE.Up2Date
 /Users/ralf/Downloads/SistemaOrcamentoObra-main/backend/OrçamentoObra/OrçamentoObra/obj/Debug/net9.0/OrçamentoObra.genruntimeconfig.cache
 /Users/ralf/Downloads/SistemaOrcamentoObra-main/backend/OrçamentoObra/OrçamentoObra/obj/Debug/net9.0/ref/OrçamentoObra.dll
+/Users/ralf/Downloads/SistemaOrcamentoObra-main/backend/OrçamentoObra/OrçamentoObra/obj/Debug/net9.0/OrçamentoObra.sourcelink.json

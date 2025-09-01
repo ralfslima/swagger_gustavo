@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OrçamentoObra")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b4fd39f2cd9521ff2a8e69416cfbdded09b4ee5c")]
 [assembly: System.Reflection.AssemblyProductAttribute("OrçamentoObra")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OrçamentoObra")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
