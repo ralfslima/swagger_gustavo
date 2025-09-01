@@ -19,6 +19,7 @@ Olá Gustavo, abaixo irei compartilhar cada etapa implementada para o funcioname
 > Dentro da pasta **Swagger*, crie o arquivo **FileUploadOperationFilter.cs**.
 >
 > Agora copie este código e cole no arquivo gerado:
+
 > using Microsoft.OpenApi.Models;
 > using Swashbuckle.AspNetCore.SwaggerGen;
 > using System.Collections.Generic;
