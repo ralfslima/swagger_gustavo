@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OrçamentoObra</name>
+    </assembly>
+    <members>
+        <member name="T:OrçamentoObra.Migrations.InitialCreate">
+            <inheritdoc />
+        </member>
+        <member name="M:OrçamentoObra.Migrations.InitialCreate.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:OrçamentoObra.Migrations.InitialCreate.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:OrçamentoObra.Migrations.InitialCreate.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:OrçamentoObra.Migrations.CriacaoDeNovosModelos">
+            <inheritdoc />
+        </member>
+        <member name="M:OrçamentoObra.Migrations.CriacaoDeNovosModelos.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:OrçamentoObra.Migrations.CriacaoDeNovosModelos.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:OrçamentoObra.Migrations.CriacaoDeNovosModelos.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:OrçamentoObra.Migrations.CriacaoDeNovosModelosNovamente">
+            <inheritdoc />
+        </member>
+        <member name="M:OrçamentoObra.Migrations.CriacaoDeNovosModelosNovamente.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:OrçamentoObra.Migrations.CriacaoDeNovosModelosNovamente.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:OrçamentoObra.Migrations.CriacaoDeNovosModelosNovamente.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

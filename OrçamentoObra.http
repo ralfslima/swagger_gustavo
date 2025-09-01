@@ -1,0 +1,6 @@
+@OrçamentoObra_HostAddress = http://localhost:5282
+
+GET {{OrçamentoObra_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

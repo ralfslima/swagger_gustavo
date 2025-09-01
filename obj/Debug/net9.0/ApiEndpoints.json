@@ -1,0 +1,524 @@
+[
+  {
+    "ContainingType": "Or\u00E7amentoObra.Controllers.CategoriaController",
+    "Method": "CriarCategoria",
+    "RelativePath": "api/Categoria",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoriaCreateDTO",
+        "Type": "Or\u00E7amentoObra.Dto.Categoria.CategoriaCreateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Or\u00E7amentoObra.Controllers.CategoriaController",
+    "Method": "ListarCategorias",
+    "RelativePath": "api/Categoria",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Or\u00E7amentoObra.Controllers.CategoriaController",
+    "Method": "EditarCategoria",
+    "RelativePath": "api/Categoria/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoriaUpdateDto",
+        "Type": "Or\u00E7amentoObra.Dto.Categoria.CategoriaUpdateDto",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Or\u00E7amentoObra.Controllers.CategoriaController",
+    "Method": "RemoverCategoria",
+    "RelativePath": "api/Categoria/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Or\u00E7amentoObra.Controllers.CategoriaController",
+    "Method": "BuscarCategoriaPorId",
+    "RelativePath": "api/Categoria/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Or\u00E7amentoObra.Controllers.CategoriaController",
+    "Method": "ListarCategoriaPorOrcamento",
+    "RelativePath": "api/Categoria/Orcamento",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orcamentoId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Or\u00E7amentoObra.Controllers.ClienteController",
+    "Method": "RegistrarCliente",
+    "RelativePath": "api/Cliente",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clienteCreateDTO",
+        "Type": "Or\u00E7amentoObra.Dto.Cliente.ClienteCreateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Or\u00E7amentoObra.Controllers.ClienteController",
+    "Method": "ListarClientes",
+    "RelativePath": "api/Cliente",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Or\u00E7amentoObra.Controllers.ClienteController",
+    "Method": "EditarCliente",
+    "RelativePath": "api/Cliente/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clienteUpdateDTO",
+        "Type": "Or\u00E7amentoObra.Dto.Cliente.ClienteUpdateDTO",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Or\u00E7amentoObra.Controllers.ClienteController",
+    "Method": "RemoverCliente",
+    "RelativePath": "api/Cliente/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Or\u00E7amentoObra.Controllers.ClienteController",
+    "Method": "BuscarClientePorId",
+    "RelativePath": "api/Cliente/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Or\u00E7amentoObra.Controllers.EmpresaController",
+    "Method": "RegistrarEmpresa",
+    "RelativePath": "api/Empresa",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "empresaCreateDto",
+        "Type": "Or\u00E7amentoObra.Dto.Empresa.EmpresaCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Or\u00E7amentoObra.Controllers.EmpresaController",
+    "Method": "ListarEmpresas",
+    "RelativePath": "api/Empresa",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Or\u00E7amentoObra.Controllers.EmpresaController",
+    "Method": "EditarEmpresa",
+    "RelativePath": "api/Empresa/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "empresaUpdateDTO",
+        "Type": "Or\u00E7amentoObra.Dto.Empresa.EmpresaUpdateDTO",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Or\u00E7amentoObra.Controllers.EmpresaController",
+    "Method": "RemoverEmpresa",
+    "RelativePath": "api/Empresa/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Or\u00E7amentoObra.Controllers.EmpresaController",
+    "Method": "BuscarEmpresaId",
+    "RelativePath": "api/Empresa/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Or\u00E7amentoObra.Controllers.ItemController",
+    "Method": "CriarItem",
+    "RelativePath": "api/Item",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "itemCreateDTO",
+        "Type": "Or\u00E7amentoObra.Dto.Item.ItemCreateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Or\u00E7amentoObra.Controllers.ItemController",
+    "Method": "ListarItems",
+    "RelativePath": "api/Item",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Or\u00E7amentoObra.Controllers.ItemController",
+    "Method": "ListarItemPorCategoria",
+    "RelativePath": "api/Item",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoriaId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Or\u00E7amentoObra.Controllers.ItemController",
+    "Method": "EditarItem",
+    "RelativePath": "api/Item/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "itemUpdateDTO",
+        "Type": "Or\u00E7amentoObra.Dto.Item.ItemUpdateDTO",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Or\u00E7amentoObra.Controllers.ItemController",
+    "Method": "RemoverItem",
+    "RelativePath": "api/Item/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Or\u00E7amentoObra.Controllers.ItemController",
+    "Method": "BuscarItemPorId",
+    "RelativePath": "api/Item/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Or\u00E7amentoObra.Controllers.ObraController",
+    "Method": "CriarObra",
+    "RelativePath": "api/Obra",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "obraCreateDTO",
+        "Type": "Or\u00E7amentoObra.Dto.Obra.ObraCreateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Or\u00E7amentoObra.Controllers.ObraController",
+    "Method": "ListarObras",
+    "RelativePath": "api/Obra",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Or\u00E7amentoObra.Controllers.ObraController",
+    "Method": "EditarObra",
+    "RelativePath": "api/Obra/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "obraUpdateDTO",
+        "Type": "Or\u00E7amentoObra.Dto.Obra.ObraUpdateDTO",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Or\u00E7amentoObra.Controllers.ObraController",
+    "Method": "RemoverObra",
+    "RelativePath": "api/Obra/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Or\u00E7amentoObra.Controllers.ObraController",
+    "Method": "BuscarObraPorId",
+    "RelativePath": "api/Obra/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Or\u00E7amentoObra.Controllers.OrcamentoController",
+    "Method": "CriarOrcamento",
+    "RelativePath": "api/Orcamento",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orcamentoCreateDTO",
+        "Type": "Or\u00E7amentoObra.Dto.Orcamento.OrcamentoCreateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Or\u00E7amentoObra.Controllers.OrcamentoController",
+    "Method": "ListarOrcamento",
+    "RelativePath": "api/Orcamento",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Or\u00E7amentoObra.Controllers.OrcamentoController",
+    "Method": "EditarOrcamento",
+    "RelativePath": "api/Orcamento/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orcamentoUpdateDTO",
+        "Type": "Or\u00E7amentoObra.Dto.Orcamento.OrcamentoUpdateDTO",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Or\u00E7amentoObra.Controllers.OrcamentoController",
+    "Method": "RemoverOrcamento",
+    "RelativePath": "api/Orcamento/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Or\u00E7amentoObra.Controllers.OrcamentoController",
+    "Method": "BuscarOrcamentoPorId",
+    "RelativePath": "api/Orcamento/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Or\u00E7amentoObra.Controllers.OrcamentoController",
+    "Method": "BuscarOrcamentoPorCliente",
+    "RelativePath": "api/Orcamento/Cliente",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clienteId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
